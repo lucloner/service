@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kardianos/service"
+	"github.com/lucloner/service"
 )
 
 const runAsServiceArg = "RunThisAsService"
