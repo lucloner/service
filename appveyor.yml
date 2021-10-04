@@ -3,11 +3,12 @@ version: "{build}"
 platform:
   - x86
   - x64
+  - arm64
 
-clone_folder: c:\gopath\src\github.com\kardianos\service
+clone_folder: c:\ext\Go\src\service
 
 environment:
-  GOPATH: c:\gopath
+  GOPATH: c:\ext\go
 
 install:
   - go version
